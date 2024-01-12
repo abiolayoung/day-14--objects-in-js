@@ -144,13 +144,58 @@
 // console.log(message)
 // console.log(phrase)
 
-let user = {
-    name: 'abiola',
-    age: 27
-}
+// let user = {
+//     name: 'abiola',
+//     age: 27
+// }
 
-let admin = user
-admin.name = "adeniyi"
-console.log(user.name)
-console.log(admin.name)
+// let admin = user
+// admin.name = "adeniyi"
+// console.log(user.name)
+// console.log(admin.name)
+
+// iterating an object to a new object
+// let user = {
+//     name: "abiola",
+//     age: 27
+// }
+
+// let clone = {}
+// for(let key in user){
+//     clone[key] = user[key]
+// }
+// clone.name = "adeniyi"
+// console.log(user.name)
+// console.log(clone.name)
+
+// using the assign method to assign an object to another name
+
+    // let clone = Object.assign({},user)
+
+    // console.log(clone.name)
+
+// let user = {}
+// user.surname = "smith"
+// user.surname = "pete"
+
+// for(key in user){
+//     console.log(user[key])
+// }
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+//   }
+
+//   let sum = () =>{
+//     if(!salaries.John || !salaries.Ann || !salaries.Pete){
+//         alert("result is empty")
+//     } 
+//     return salaries.John + salaries.Ann + salaries.Pete;
+//   }
+//   console.log(`total salaries of our staffs is: $${sum()}`) 
+
+
+
 
