@@ -105,11 +105,11 @@
 
 // OBJECT EXAMPLE
 
-let user = {
-        name: "abiola",
-        age: 27,
-        isAdmin: true
-    }
+// let user = {
+//         name: "abiola",
+//         age: 27,
+//         isAdmin: true
+//     }
 
     // alert(user.name)
     // alert(user.age)
@@ -122,4 +122,35 @@ let user = {
     //     alert(user[key]) // this alone will output only the variable value in our object
     //     //both will output all data in object, both variable name and value
     // }
+
+// OBJECT REFERENCING USING COPY
+// object vs primitives- objects are copied by reference, while primitives are copied as a whole value
+// let message = "hello";
+// let phrase = message;
+
+// a variable assigned to an object stores not the object itself, but its "address in memory"- in other word a "reference" to it
+//  example
+//  let user = {
+//     name: "abiola",
+//  }
+//  let admin = user;
+//  admin.name = "adeniyi";
+//  alert(user.name)
+
+// let message = "hello world"
+// let phrase = message;
+
+// phrase = "This is a phrase"
+// console.log(message)
+// console.log(phrase)
+
+let user = {
+    name: 'abiola',
+    age: 27
+}
+
+let admin = user
+admin.name = "adeniyi"
+console.log(user.name)
+console.log(admin.name)
 
